@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from './Contact';
 import './Resume.css';
 import Title from './Title';
+import { Work } from './Work';
 
 export const  Resume: React.FC = () => {
   return (
@@ -15,6 +16,14 @@ export const  Resume: React.FC = () => {
         </div>
         <div className="right-column">
           <Contact/>
+        </div>
+      </div>
+      <div id="content">
+        <div className="left-column">
+          <Work />
+        </div>
+        <div className="right-column">
+          
         </div>
       </div>
     </div>
