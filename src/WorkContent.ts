@@ -24,13 +24,13 @@ export const WorkExperience: WorkCardProps[] = [
     title: "Software Developer Co-op, Manulife Bank",
     location: "Waterloo, Ontario",
     date: "Sep 2020 - Dec 2020",
-    description: "Created in-house testing tools using Electron. Developed testing automation with Node and SoapUI. Worked with Spring Boot to develop microservice APIs.",
+    description: "Developed and configured analytics microservices in Spring Boot, projected to reach over 10,000 mobile app users. Created in-house testing and automation tools using Electron, Node and SoapUI.",
     backgroundColor: "#00BF66",
     chips: [
+      { hue: 137, text: "SPRING" },
       { hue: 187, text: "REACT" },
       { hue: 187, text: "ELECTRON" },
       { hue: 115, text: "NODE" },
-      { hue: 137, text: "SPRING" },
       { hue: 346, text: "STORYBOOK" }
     ]
   },
@@ -39,7 +39,7 @@ export const WorkExperience: WorkCardProps[] = [
     title: "Software Engineer, Secret Mission Software",
     location: "Toronto, Ontario",
     date: "Jan 2020 - May 2020",
-    description: "Delivered a responsive web-app using Typescript, React, Apollo, Graphene, and Django. Used Heroku and GitHub for a streamlined CI/CD pipeline.",
+    description: "Developed responsive web-apps using React, Gatsby, and Apollo. Implemented a GraphQL backend with Graphene and Django. Deployed on a CI/CD pipeline using Heroku and GitHub.",
     chips: [
       { hue: 187, text: "REACT" },
       { hue: 216, text: "APOLLO" },
@@ -57,7 +57,7 @@ export const WorkExperience: WorkCardProps[] = [
     title: "AI Engineer Intern, GDP Labs",
     location: "Jakarta, Indonesia",
     date: "May 2019 - Aug 2019",
-    description: "Implemented recommendation systems using Knowledge Graph Embedding, which showed over 10% improvement over existing models.",
+    description: "Researched and implemented recommendation systems using Knowledge Graph Embedding, which showed over 10% improvement over existing Collaborative Filtering models.",
     backgroundColor: "#15A2D8",
     chips: [
       { hue: 30, text: "TENSORFLOW" },
@@ -73,7 +73,7 @@ export const ProjectContent: WorkCardProps[] = [
     title: "Co-Founder/Frontend Developer, fluent.id",
     location: "Jakarta, Indonesia",
     date: "Jul 2019 - Dec 2019",
-    description: "Designed and developed fluent.id, a platform enabling people to practice English via free anonymous voice calls, reaching almost 100 users at launch.",
+    description: "Designed and developed fluent.id: a platform enabling people to practice English via free anonymous voice calls, reaching almost 100 users at launch. Implemented peer-to-peer real-time communication and voice calls using PeerJS.",
     chips: [
       { hue: 187, text: "REACT" },
       { hue: 187, text: "NEXTJS" },
