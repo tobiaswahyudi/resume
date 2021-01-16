@@ -11,7 +11,7 @@ export const  Title: React.FC = () => {
         <div className="line" />
       </div>
       <span id="title-middle">
-        Tobias Wahyudi
+        Benedict Tobias Wahyudi
       </span>
       <div className="title-caption">
         <div className="line" />
