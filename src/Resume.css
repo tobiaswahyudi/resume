@@ -3,6 +3,8 @@
   background-image: url('./res/img/Woosh.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  position: absolute;
+  z-index: -10;
 }
 
 .left-column {

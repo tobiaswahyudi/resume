@@ -1,11 +1,14 @@
 import React from 'react';
 import './Work.css';
 
+import Shadow from './res/img/exportshadow.png';
+
 import { WorkExperience, ProjectContent, WorkCardProps } from './WorkContent';
 
 export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, title, location, date, description, chips = [] }: WorkCardProps) => {
   return (
     <div className="work-card" style={{ background: backgroundColor }}>
+      <img className="shadow" src={Shadow} />
       <img className="work-card-img" src={imgSrc} alt="" />
       <div className="work-card-content">
         <span className="work-card-title">{title}</span>

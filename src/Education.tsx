@@ -2,12 +2,14 @@ import React from 'react';
 import './Education.css';
 
 import Loo from './res/img/loo.png';
+import Shadow from './res/img/exportshadow_small.png';
 
 export const Education = () => {
   return (
     <div id="education-section">
       <h2>Education</h2>
       <div id="education">
+        <img className="shadow" src={Shadow} />
         <img id="education-img" src={Loo} alt="The University of Waterloo. Major: Computer Science"/>
         <div id="education-content">
           <span id="education-title">University of Waterloo</span>
