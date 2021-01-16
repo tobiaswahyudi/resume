@@ -27,7 +27,7 @@
 }
 .work-card-title {
   line-height: 170%;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
 }
 .gray-line {
@@ -52,8 +52,47 @@
 }
 .work-card-description {
   line-height: 150%;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 300;
   margin: 0;
   margin-top: 5px;
+}
+
+.chips-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6px;
+  width: 100%;
+  flex-wrap: wrap;
+  row-gap: 2px;
+  column-gap: 3px;
+  margin-bottom: -2px;
+}
+
+.chip {
+  padding: 3px 4px 1px;
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight: 600;
+  flex: 1;
+  text-align: center;
+}
+
+.frontend {
+  background: hsl(120, 66%, 90%);
+  color: hsl(120, 66%, 40%);
+  border: 1.5px solid hsl(120, 66%, 40%);
+}
+
+.backend {
+  background: hsl(175, 66%, 90%);
+  color: hsl(175, 66%, 40%);
+  border: 1.5px solid hsl(175, 66%, 40%);
+}
+
+
+.misc {
+  background: hsl(230, 65%, 90%);
+  color: hsl(230, 66%, 40%);
+  border: 1.5px solid hsl(230, 66%, 40%);
 }

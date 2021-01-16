@@ -1,5 +1,5 @@
 #title {
-  padding-right: 50px;
+  padding-right: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 #title-middle {
   font-family: 'Merriweather', serif;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 900;
   padding: 3px 0;
 }
@@ -18,7 +18,7 @@
 }
 
 .title-caption{
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 300;
   display: flex;
   flex-direction: row;

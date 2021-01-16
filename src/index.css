@@ -3,6 +3,7 @@ html, body, #root, #page {
   padding: 0;
   width: 595px;
   height: 842px;
+  box-sizing: border-box;
   font-family: 'Overpass', sans-serif;
   color: #151722;
   -webkit-font-smoothing: antialiased;
