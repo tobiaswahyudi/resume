@@ -1,10 +1,11 @@
 import React from 'react';
 import Contact from './Contact';
+import Education from './Education';
 import './Resume.css';
 import Title from './Title';
 import { Work } from './Work';
 
-export const  Resume: React.FC = () => {
+export const Resume: React.FC = () => {
   return (
     <div id="page">
       <div id="header">
@@ -15,7 +16,7 @@ export const  Resume: React.FC = () => {
           </p>
         </div>
         <div className="right-column">
-          <Contact/>
+          <Contact />
         </div>
       </div>
       <div id="content">
@@ -23,7 +24,7 @@ export const  Resume: React.FC = () => {
           <Work />
         </div>
         <div className="right-column">
-          
+          <Education />
         </div>
       </div>
     </div>
