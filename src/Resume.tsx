@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css';
 import Title from './Title';
 
-function App() {
+export const  Resume: React.FC = () => {
   return (
     <div id="page">
       <div id="header">
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default Resume;

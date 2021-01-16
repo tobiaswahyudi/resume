@@ -1,7 +1,7 @@
 import React from 'react';
 import './Title.css';
 
-function Title() {
+export const  Title: React.FC = () => {
   return (
     <div id="title">
       <div className="title-caption">
