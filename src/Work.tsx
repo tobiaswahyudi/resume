@@ -29,7 +29,7 @@ export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, tit
             <div className="frontend chip"
               style={{
                 background: `linear-gradient(105.73deg, hsl(${chip.hue}, 95%, 93%) 6.81%, hsl(${chip.hue}, 100%, 84%) 85.14%)`,
-                color: `hsl(${chip.hue}, 50%, 60%)`,
+                color: `hsl(${chip.hue}, 50%, 30%)`,
               }}
             ><span>{chip.text}</span></div>)
           )}
