@@ -1,4 +1,5 @@
 import React from 'react';
+import { Activities } from './Activities';
 import Contact from './Contact';
 import Education from './Education';
 import './Resume.css';
@@ -27,6 +28,7 @@ export const Resume: React.FC = () => {
         <div className="right-column">
           <Education />
           <Skills />
+          <Activities />
         </div>
       </div>
     </div>

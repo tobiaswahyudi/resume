@@ -1,0 +1,16 @@
+.award-activity {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+.award-activity-title {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.award-activity-description {
+  font-weight: 300;
+  font-size: 10px;
+}
