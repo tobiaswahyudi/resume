@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from './Contact';
 import Education from './Education';
 import './Resume.css';
+import Skills from './Skills';
 import Title from './Title';
 import { Work } from './Work';
 
@@ -25,6 +26,7 @@ export const Resume: React.FC = () => {
         </div>
         <div className="right-column">
           <Education />
+          <Skills />
         </div>
       </div>
     </div>

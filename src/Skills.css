@@ -1,0 +1,14 @@
+ul {
+  padding: 5px 0 10px 1em;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+li > span {
+  font-weight: 200;
+}
