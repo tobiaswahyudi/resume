@@ -8,4 +8,6 @@ html, body, #root, #page {
   color: #151722;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  z-index: -10;
 }

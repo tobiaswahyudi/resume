@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
-  z-index: -10;
 }
 
 .left-column {
@@ -19,6 +18,7 @@
 #header, #content {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 #summary {
