@@ -1,6 +1,6 @@
-import Manulife from './res/img/manulife.png';
-import SMS from './res/img/sms.png';
-import GDP from './res/img/gdp.png';
+import Manulife from './res/img/manulife.svg';
+import SMS from './res/img/sms.svg';
+import GDP from './res/img/gdp.svg';
 import Fluent from './res/img/fluent.svg';
 
 export interface Chip {
