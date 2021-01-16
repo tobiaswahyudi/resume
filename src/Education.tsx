@@ -5,7 +5,7 @@ import Loo from './res/img/loo.png';
 
 export const Education = () => {
   return (
-    <div>
+    <div id="education-section">
       <h2>Education</h2>
       <div id="education">
         <img id="education-img" src={Loo} alt="The University of Waterloo. Major: Computer Science"/>
