@@ -1,0 +1,26 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 10.5px;
+  margin-bottom: 5px;
+}
+
+.contact-img {
+  width: 1.2em;
+  height: 1.2em;
+  max-width: 1.2em;
+  max-height: 1.2em;
+}
+
+.contact-text {
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+  margin-left: 6px;
+}

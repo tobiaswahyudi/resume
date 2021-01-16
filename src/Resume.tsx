@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 import './Resume.css';
 import Title from './Title';
 
@@ -13,7 +14,7 @@ export const  Resume: React.FC = () => {
           </p>
         </div>
         <div className="right-column">
-          x
+          <Contact/>
         </div>
       </div>
     </div>
