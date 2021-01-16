@@ -1,0 +1,59 @@
+#work-experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 11px;
+  background: radial-gradient(14.91% 47.35% at 8.7% 50%, #FFFFFF 27.6%, #EFEFEF 100%);
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.work-card-img {
+  width: 55px;
+  height: 55px;
+}
+
+.work-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  border-radius: 11px;
+  background: #FAFAF8;
+}
+.work-card-title {
+  line-height: 170%;
+  font-size: 13px;
+  font-weight: 600;
+}
+.gray-line {
+  width: 100%;
+  background-color: #D7D7D7;
+  height: 2px;
+  border-radius: 1px;
+}
+.location-date {
+  padding-top: 2px;
+  font-size: 9.5px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  color: #737373;
+}
+.location {
+  flex: 1;
+}
+.date {
+  font-style: italic;
+}
+.work-card-description {
+  line-height: 150%;
+  font-size: 11px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 5px;
+}
