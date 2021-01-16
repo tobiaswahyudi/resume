@@ -1,18 +1,9 @@
 import React from 'react';
 import './Work.css';
 
-import WorkExperience, { ProjectContent } from './WorkContent';
+import { WorkExperience, ProjectContent, WorkCardProps } from './WorkContent';
 
-export interface WorkCardProps {
-  imgSrc: string,
-  backgroundColor?: string,
-  title: string,
-  location: string,
-  date: string,
-  description: string
-}
-
-export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, title, location, date, description }: WorkCardProps) => {
+export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, title, location, date, description, chips = [] }: WorkCardProps) => {
   return (
     <div className="work-card" style={{ background: backgroundColor }}>
       <img className="work-card-img" src={imgSrc} alt="" />
@@ -30,8 +21,18 @@ export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, tit
         <p className="work-card-description">
           {description}
         </p>
+        <div className="chips-container">
+          {chips.map(chip => (
+            <div className="frontend chip"
+              style={{
+                background: `linear-gradient(105.73deg, hsl(${chip.hue}, 95%, 93%) 6.81%, hsl(${chip.hue}, 100%, 84%) 85.14%)`,
+                color: `hsl(${chip.hue}, 50%, 60%)`,
+              }}
+            ><span>{chip.text}</span></div>)
+          )}
+        </div>
       </div>
-    </div>
+    </div >
   )
 }
 
