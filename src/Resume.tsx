@@ -14,7 +14,7 @@ export const Resume: React.FC = () => {
         <div className="left-column">
           <Title />
           <p id="summary">
-            Third-year CS at the University of Waterloo. Significantly experienced in React development, and moderately skilled at Full-Stack engineering - including JS, Python, and Java backend libraries. Familiar in working with CI/CD and Agile workspaces.
+            Significantly experienced in React development, and moderately skilled at Full-Stack engineering - including JS, Python, and Java backend libraries. Well-rounded with experience in leadership and design.
           </p>
         </div>
         <div className="right-column">

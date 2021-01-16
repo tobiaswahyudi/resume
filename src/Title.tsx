@@ -16,7 +16,7 @@ export const  Title: React.FC = () => {
       <div className="title-caption">
         <div className="line" />
         <span id="title-text-bottom">
-          Software Engineer Wizard-in-Training
+          Full Stack Software Developer
         </span>
       </div>
     </div>
