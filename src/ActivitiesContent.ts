@@ -10,7 +10,7 @@ export const AwardsActivities: AwardActivity[] = [
   },
   {
     title: "Hack The North 2019",
-    description: "Used React, Node, Express, and Firebase to built a social network web-app to connect people living in residence."
+    description: "Used React, Node, Express, and Firebase to build a social network web-app to connect people living in residence."
   },
   {
     title: "Indonesian Students Association, President",
