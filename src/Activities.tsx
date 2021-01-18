@@ -8,7 +8,7 @@ const AwardActivity: React.FC<AwardActivityType> = ({title, description}: AwardA
   return (
     <div className="award-activity">
       <span className="award-activity-title">{title}</span>
-      <span className="award-activity-description">{description}</span>
+      {description && <span className="award-activity-description">{description}</span>}
     </div>
   )
 }
