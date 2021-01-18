@@ -9,7 +9,7 @@ export const Education = () => {
     <div id="education-section">
       <h2>Education</h2>
       <div id="education">
-        <img className="shadow" src={Shadow} />
+        <img className="shadow" src={Shadow} alt=""/>
         <img id="education-img" src={Loo} alt="The University of Waterloo. Major: Computer Science"/>
         <div id="education-content">
           <span id="education-title">University of Waterloo</span>
