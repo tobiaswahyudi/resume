@@ -27,10 +27,19 @@
   background: #FAFAF8;
 }
 .work-card-title {
-  line-height: 170%;
+  line-height: 130%;
   font-size: 12px;
   font-weight: 600;
 }
+
+.work-card-company {
+  line-height: 130%;
+  font-size: 9.5px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
 .gray-line {
   width: 100%;
   background-color: #D7D7D7;
@@ -55,7 +64,9 @@
   font-size: 9px;
   font-weight: 300;
   margin: 0;
+  padding: 0;
   margin-top: 5px;
+  padding-left: 10px;
 }
 
 .chips-container {
