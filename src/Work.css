@@ -98,3 +98,8 @@
   height: calc( 100% + 16px);
   width: calc( 100% + 16px);
 }
+
+a {
+  color: #151722;
+  text-decoration: none;
+}

@@ -4,8 +4,14 @@ import { AwardActivity as AwardActivityType, AwardsActivities } from './Activiti
 
 
 
-const AwardActivity: React.FC<AwardActivityType> = ({title, description}: AwardActivityType) => {
-  return (
+const AwardActivity: React.FC<AwardActivityType> = ({ href, title, description }: AwardActivityType) => {
+  console.log(href)
+  return href ? (
+    <a className="award-activity" href={href}>
+      <span className="award-activity-title">{title}</span>
+      {description && <span className="award-activity-description">{description}</span>}
+    </a>
+  ) : (
     <div className="award-activity">
       <span className="award-activity-title">{title}</span>
       {description && <span className="award-activity-description">{description}</span>}
@@ -19,7 +25,7 @@ export const Activities = () => {
       <h2>{"Awards & Activities"}</h2>
       <div id="activities-content">
         {AwardsActivities.map(aa => (
-          <AwardActivity title={aa.title} description={aa.description} />
+          <AwardActivity title={aa.title} description={aa.description} href={aa.href}/>
         ))}
       </div>
     </div>

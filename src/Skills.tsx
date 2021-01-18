@@ -32,6 +32,13 @@ export const Skills = () => {
         <li>Linux/Unix</li>
         <li>Git</li>
       </ul>
+      <h3>{"Languages"}</h3>
+      <ul>
+        <li>C / C++</li>
+        <li>JavaScript / TypeScript</li>
+        <li>Python</li>
+        <li>Java</li>
+      </ul>
     </div>
   );
 }

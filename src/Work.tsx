@@ -5,10 +5,11 @@ import Shadow from './res/img/exportshadow.png';
 
 import { WorkExperience, ProjectContent, WorkCardProps } from './WorkContent';
 
-export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, title, company, location, date, description, chips = [] }: WorkCardProps) => {
-  return (
-    <div className="work-card" style={{ background: backgroundColor }}>
-      <img className="shadow" src={Shadow} alt=""/>
+export const WorkCard: React.FC<WorkCardProps> = ({ href, imgSrc, backgroundColor, title, company, location, date, description, chips = [] }: WorkCardProps) => {
+
+  const Inner = () => (
+    <>
+      <img className="shadow" src={Shadow} alt="" />
       <img className="work-card-img" src={imgSrc} alt="" />
       <div className="work-card-content">
         <span className="work-card-title">{title}</span>
@@ -36,7 +37,16 @@ export const WorkCard: React.FC<WorkCardProps> = ({ imgSrc, backgroundColor, tit
           )}
         </div>
       </div>
-    </div >
+    </>
+  )
+  return href ? (
+    <a className="work-card" style={{ background: backgroundColor }} href={href}>
+      <Inner />
+    </a>
+  ) : (
+    <div className="work-card" style={{ background: backgroundColor }}>
+      <Inner />
+    </div>
   )
 }
 
@@ -45,7 +55,7 @@ export const Work: React.FC = () => {
     <div id="work-experience">
       <h2>Work Experience</h2>
       {WorkExperience.map(exp => <WorkCard {...exp} />)}
-      <h2 style={{marginTop: "5px"}}>Projects</h2>
+      <h2 style={{ marginTop: "5px" }}>Projects</h2>
       {ProjectContent.map(exp => <WorkCard {...exp} />)}
     </div>
   )

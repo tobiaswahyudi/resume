@@ -30,23 +30,24 @@
 #education-title {
   font-weight: 600;
   font-size: 12px;
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
 }
 
 #education-description {
   font-weight: 300;
-  font-size: 9.5px;
-  margin-bottom: 1px;
+  font-size: 9px;
+  margin-top: 4px;
+  /* margin-bottom: 1px; */
 }
 
 #education-date {
   font-weight: 300;
   font-size: 8.5px;
-  font-style: italic;
+  color: #737373;
 }
 
 #education-gpa {
   font-weight: 300;
-  font-size: 8.5px;
+  font-size: 9px;
   font-style: italic;
 }

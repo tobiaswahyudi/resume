@@ -16,7 +16,8 @@ export interface WorkCardProps {
   location: string,
   date: string,
   description: string[],
-  chips?: Chip[]
+  chips?: Chip[],
+  href?: string
 }
 
 export const WorkExperience: WorkCardProps[] = [
@@ -27,8 +28,8 @@ export const WorkExperience: WorkCardProps[] = [
     location: "Waterloo, Canada",
     date: "Sep 2020 - Dec 2020",
     description: [
-      "Implemented and configured analytics microservice APIs for Bill Payment Reminders, projected to reach over 10,000 mobile app users.",
-      "Independently created in-house testing and automation tools, reducing manual testing time by over 50%.",
+      "Implemented analytics microservice APIs for Bill Payment Reminders, projected to reach 10,000+ users.",
+      "Independently created intuitive testing and automation tools using React, Node, and Electron, reducing manual testing time by over 50%.",
       "Contributed to Manulife's internal React components library."
     ],
     backgroundColor: "#00BF66",
@@ -47,7 +48,7 @@ export const WorkExperience: WorkCardProps[] = [
     location: "Toronto, Canada",
     date: "Jan 2020 - May 2020",
     description: [
-      "Developed responsive web-apps for multiple clients, including a platform used by more than 4,500 real estate brokers in Toronto.",
+      "Delivered responsive web-apps for multiple clients, including one used by 4,500+ real estate brokers in Toronto.",
       "Implemented a GraphQL backend with Graphene and Django.",
     ],
     chips: [
@@ -85,6 +86,7 @@ export const ProjectContent: WorkCardProps[] = [
     imgSrc: Fluent,
     title: "Co-Founder/Frontend Developer",
     company: "fluent.id",
+    href: "https://fluent.id",
     location: "Jakarta, Indonesia",
     date: "Jul 2019 - Dec 2019",
     description: [
